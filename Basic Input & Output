@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc =new Scanner(System.in);
+      int s=sc.nextInt();
+      float t=sc.nextFloat();
+      char a=sc.next().charAt(0);
+      long f=sc.nextLong();
+      double n=sc.nextDouble();
+      System.out.print(s+"\n"+t+"\n"+a+"\n"+f+"\n"+n);
+  }
+}
