@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int s=sc.nextInt(),t=sc.nextInt(),a=sc.nextInt(),f=sc.nextInt(),n=sc.nextInt(),i=sc.nextInt();
+      System.out.println("Area of Square="+(s*s));
+      System.out.println("Area of Rectangle="+(t*a));
+      System.out.printf("Area of Circle=%.2f",(3.14*f*f));
+      double tri=(0.5)*n*i;
+      System.out.println("\nArea of Triangle="+(int)tri);
+  }
+}
