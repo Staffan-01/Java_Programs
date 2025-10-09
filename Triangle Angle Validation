@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int s=sc.nextInt(),t=sc.nextInt(),f=sc.nextInt();
+      if((s>0&&t>0&&f>0)&&(s+t+f==180)){
+        System.out.println("VALID");
+        System.out.print((s==60&&t==60&&f==60)?"EQUILATERAL":(s==t||t==f||s==f)?"ISOSCELES":"SCALENE");
+      }else{
+        System.out.println("NOT VALID");
+      }
+  }
+}
