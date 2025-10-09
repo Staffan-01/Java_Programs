@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int s=sc.nextInt(),t=sc.nextInt(),a=sc.nextInt();
+      if(s>t && s>a)
+        System.out.print(t>a?t:a);
+      else if(t>s && t>a)
+        System.out.print(s>a?s:a);
+      else if(a>s && a>t)
+        System.out.print(s>t?s:t);
+      else
+        System.out.print("No second max");
+  }
+}
