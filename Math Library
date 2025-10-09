@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      float s=sc.nextFloat();
+      int t=sc.nextInt(),a=sc.nextInt(),f=sc.nextInt();
+      System.out.println((int)Math.floor(s));
+      System.out.println((int)Math.ceil(s));
+      System.out.println(Math.round(s));
+      System.out.println((int)Math.sqrt(t));
+      System.out.println((int)Math.pow(a,f));
+  }
+}
