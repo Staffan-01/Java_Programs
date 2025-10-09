@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int s=sc.nextInt(),t=sc.nextInt(),a=sc.nextInt(),f=sc.nextInt(),n=sc.nextInt();
+      int avg=(s+t+a+f+n)/5;
+      System.out.print(avg>=90?"Excellent!":avg>=80?"Great Job!":avg>=70?"Good Effort!":avg>=50?"Keep Trying!":"Better Luck Next Time!");
+  }
+}
