@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int s=sc.nextInt(),t=sc.nextInt(),a=sc.nextInt(),f=sc.nextInt(),n=sc.nextInt();
+      double avg=(s+t+a+f+n)/5.0;
+      if((avg==(int)avg))
+        System.out.print((int)avg);
+      else
+        System.out.printf("%.2f",avg);
+  }
+}  
