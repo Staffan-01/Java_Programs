@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int st=sc.nextInt(),s=st%8;
+      System.out.print((s==1||s==4)?"LB":(s==2||s==5)?"MB":(s==3||s==6)?"UB":s==7?"SL":"SU");
+      
+  }
+}
